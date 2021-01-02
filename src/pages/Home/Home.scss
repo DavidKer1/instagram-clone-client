@@ -1,0 +1,8 @@
+.home{
+   overflow: hidden !important;
+   &__left{
+      padding-top: 0 !important;
+      
+   }
+   height: calc(100vh - 60px);
+}

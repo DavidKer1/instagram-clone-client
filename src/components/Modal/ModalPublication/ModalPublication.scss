@@ -1,0 +1,39 @@
+@import "../../../scss/index.scss";
+
+.modal-publication{
+   height: 520px !important;
+   .ui.grid{
+      margin: 0 ;
+      height: 100%;
+      @media screen  and (min-width: 767px){
+         // background: none !important;
+         
+      }
+      @media screen and (max-width: 767px){
+
+         height: 520px;
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+      }
+   }
+   &__left{
+      @media screen and (max-width: 767px){
+         // display: none !important;
+         height: 520px;
+         z-index: 1;
+
+      }
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0 !important;
+      padding-left: -10 !important;
+   }
+   &__right{
+      padding:0 !important; 
+      height: 100%;
+      margin: 0 !important;
+   }
+}
+

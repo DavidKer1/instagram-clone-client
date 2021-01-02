@@ -1,0 +1,40 @@
+@import "./scss/index.scss";
+
+body{
+   background-color: $background-grey-light;
+}
+
+
+.ui.form{
+   .btn-submit{
+      width: 100%;
+      background-color: $action;
+      color: $font-light;
+   }
+   .submit-error{
+      display: flex;
+      justify-content: center;
+      height: 20px;
+      margin: 20px 0 0 0;
+      .submit-error-text{
+         color: $danger;
+         opacity: 0;
+         transition: opacity .4s cubic-bezier(.55,1.42,.83,.67);
+      }
+      .error-form{
+         opacity: 1;
+      }
+   }
+   
+  
+}
+.ui.button.btn-action{
+   background-color: $action !important;
+   color: $font-light !important;
+   border-color: $action !important;
+}
+.ui.button.btn-danger{
+   background-color: $danger !important;
+   color: $font-light !important;
+   border-color: $danger !important;   
+}
