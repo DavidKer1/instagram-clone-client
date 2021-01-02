@@ -2,12 +2,13 @@
 Deployed in Netlify
 
 - [Demo Page](https://instaclone-victor-sanchez.netlify.app/)
-# React Instagram Clone 
-
-
 ### Test Account
 - email: correo@correo.com
 - password: 123456
+# React Instagram Clone 
+
+
+
 
 ### Dependecies
 - React
