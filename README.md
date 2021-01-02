@@ -1,6 +1,7 @@
-# DEMO
-- [Demo Page](https://instaclone-victor-sanchez.netlify.app/)
+## DEMO
+Deployed in Netlify
 
+- [Demo Page](https://instaclone-victor-sanchez.netlify.app/)
 # React Instagram Clone 
 
 
